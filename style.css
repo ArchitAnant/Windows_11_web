@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+} 
+.flyoutbut{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 1650px;
+    width: fit-content;
+    justify-content: flex-end;
+    z-index: 110;
+    height: 50px;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 110;
+    height: 50px;
+    background-color: #d6dff3;
+}
+.startbut{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 800px;
+    width: fit-content;
+    justify-content: center;
+    z-index: 110;
+    height: 50px;
+}
+.searchbut{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: fit-content;
+    margin-left: 830px;
+    justify-content:center;
+    z-index: 110;
+    height: 50px;
+}  
+.multi{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: fit-content;
+    margin-left: 895px;
+    justify-content:center;
+    z-index: 110;
+    height: 50px;
+}  
+.widget{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: fit-content;
+    margin-left: 940px;
+    justify-content:center;
+    z-index: 110;
+    height: 50px;
+}
+.restbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: fit-content;
+    margin-left: 965px;
+    justify-content:center;
+    z-index: 110;
+    height: 50px;
+}
+.startmenu{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -650px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.flyout{
+    position: absolute;
+    /* bottom: 50px; */
+    bottom: -650px;
+    width: 100%;
+    margin-left: 40px;
+    text-align:end;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 8px;
+}
+.flyout img{
+    border-radius: 35px;
+    transform: scale(0.25);
+}
